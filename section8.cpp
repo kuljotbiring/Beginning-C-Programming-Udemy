@@ -13,18 +13,18 @@
 int main()
 {
     //create constants to hold known unchanging values for currency
-    const int   DOLLAR_VALUE = 100,
-                QUARTER_VALUE = 25,
-                DIME_VALUE = 10,
-                NICKEL_VALUE = 5,
-                PENNY_VALUE = 1;
+    const int   DOLLAR_VALUE {100},
+                QUARTER_VALUE {25},
+                DIME_VALUE {10},
+                NICKEL_VALUE {5},
+                PENNY_VALUE {1};
 
-    int    cents,
-           dollarNumber,
-           quarterNumber,
-           dimeNumber,
-           nickelNumber,
-           pennyNumber;
+    int    cents {},
+           dollarNumber {},
+           quarterNumber {},
+           dimeNumber {},
+           nickelNumber {},
+           pennyNumber {};
 
     //prompt user to enter cents greater than 0
     std::cout << "Please enter an amount in cents greater or equal to 0." << std::endl;
