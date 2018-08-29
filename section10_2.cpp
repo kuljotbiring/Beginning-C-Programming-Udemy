@@ -31,13 +31,13 @@ int main()
 
     getline(std::cin, yourString);
 
-    for(size_t pos {0}; pos < yourString.length(); ++pos)
+    for(size_t x {0}; x < yourString.length(); x++)
     {
-        std::string spaces (yourString.length() - pos,' ');
+        std::string spaces (yourString.length() - x,' ');
 
-        std::cout << spaces << yourString.substr(0, pos + 1) << reverseString << std::endl;
+        std::cout << spaces << yourString.substr(0, x + 1) << reverseString << std::endl;
 
-        reverseString = yourString.at(pos) + reverseString;
+        reverseString = yourString.at(x) + reverseString;
     }
 
     return 0;
