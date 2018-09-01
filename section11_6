@@ -1,0 +1,30 @@
+/*********************************************************************
+** Author: Kuljot Biring
+**
+** Date: August 31, 2018
+**
+** This program demonstrates a recursive function using fibonacci.
+*********************************************************************/
+
+#include <iostream>
+
+unsigned long long fibonacci(unsigned long long n);
+
+int main()
+{
+    // test recursive function
+
+    std::cout << fibonacci(5) << std::endl;
+    std::cout << fibonacci(30) << std::endl;
+    std::cout << fibonacci(40) << std::endl;
+
+    return 0;
+}
+
+unsigned long long fibonacci(unsigned long long n)
+{
+    if(n <= 1)      // base cases for 0 and 1
+        return n;
+
+    return fibonacci(n - 1) + fibonacci(n - 2); // recursion
+}
