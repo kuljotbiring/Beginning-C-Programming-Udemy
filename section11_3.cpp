@@ -26,7 +26,7 @@ void area_calc() {
     //----WRITE YOUR FUNCTION CALLS ABOVE THIS LINE----
     //----DO NOT MODIFY THE CODE BELOW THIS LINE----
     
-    cout << "The area of the square is " << square_area << "\n" << "The area of the rectangle is " << rectangle_area;
+    cout << "The area of the square is " << square_area << "\n" << "The area of the rectangle is: " << rectangle_area;
 }
 
 //----DO NOT MODIFY THE CODE ABOVE THIS LINE----
