@@ -16,7 +16,7 @@
 ** contained withing journal_entry_2, is alphabetically less than the
 ** last name contained within journal_entry_2, then the string values
 ** are swapped using the string function swap.
-*********************************************************************/
+**********************************************************************/
 
 #include <iostream>
 #include <cstring>
