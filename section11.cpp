@@ -4,6 +4,7 @@ using namespace std;
 
 //----DO NOT MODIFY THE CODE ABOVE THIS LINE----
 //----WRITE YOUR FUNCTION PROTOTYPES BELOW THIS LINE----
+
 double fahrenheit_to_celsius(double temperature);
 
 double fahrenheit_to_kelvin(double temperature);
