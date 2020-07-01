@@ -56,5 +56,5 @@ void clear_guest_list(string &guest_1, string &guest_2, string &guest_3) {//----
     guest_3 = " ";
     
     //----WRITE THE FUNCTION BODY ABOVE THIS LINE----
-    //----DO NOT MODIFY THE CODE BELOW THIS LINE----
+    //----DO NOT MODIFY THE CODE BELOW THIS LINE ----
 }
